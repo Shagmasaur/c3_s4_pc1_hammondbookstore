@@ -47,13 +47,14 @@ public class Book
         this.price = price;
     }
 
-    public void displayBookDetails()
+    public boolean displayBookDetails()
     {
         System.out.println("ISBN Number : " +getiSBNNo());
         System.out.println("Title : " +getTitle());
         System.out.println("Description : " +getDescription());
         System.out.println("Price : " +getPrice());
 
+        return false;
     }
 
     public String toString()

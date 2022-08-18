@@ -1,6 +1,6 @@
 package BookStore;
 
-public class Author extends Book
+public class Author
 {
     private String authorName;
     private String authorPenName;
@@ -29,11 +29,12 @@ public class Author extends Book
         this.authorPenName = authorPenName;
     }
 
-    public void displayBookDetails()
+    public boolean displayBookDetails()
     {
         System.out.println("Author Name : " +getAuthorName());
         System.out.println("AuthorPenName : " +getAuthorPenName());
 
+        return false;
     }
 
     public String toString()

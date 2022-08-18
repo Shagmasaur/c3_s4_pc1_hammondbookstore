@@ -32,6 +32,9 @@ public class BookImpl
 
        // }
 
+        System.out.println(book.displayBookDetails());
+        System.out.println(author.displayBookDetails());
+
 
     }
 }
